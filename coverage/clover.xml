@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1781960910704" clover="3.2.0">
+  <project timestamp="1781960910704" name="All files">
+    <metrics statements="67" coveredstatements="67" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="71" coveredelements="71" complexity="0" loc="67" ncloc="67" packages="1" files="4" classes="4"/>
+    <file name="api-stack.ts" path="/Users/josephcooper/git/typescript-cdk-template/cdk/lib/api-stack.ts">
+      <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="22" count="7" type="stmt"/>
+      <line num="24" count="7" type="stmt"/>
+      <line num="25" count="7" type="stmt"/>
+      <line num="27" count="7" type="stmt"/>
+      <line num="33" count="7" type="stmt"/>
+      <line num="35" count="7" type="stmt"/>
+      <line num="41" count="7" type="stmt"/>
+      <line num="43" count="7" type="stmt"/>
+      <line num="49" count="7" type="stmt"/>
+      <line num="51" count="7" type="stmt"/>
+      <line num="63" count="7" type="stmt"/>
+      <line num="69" count="7" type="stmt"/>
+      <line num="88" count="7" type="stmt"/>
+      <line num="90" count="7" type="stmt"/>
+      <line num="91" count="7" type="stmt"/>
+      <line num="93" count="7" type="stmt"/>
+      <line num="97" count="7" type="stmt"/>
+      <line num="101" count="7" type="stmt"/>
+      <line num="105" count="7" type="stmt"/>
+      <line num="110" count="7" type="stmt"/>
+    </file>
+    <file name="infrastructure-stack.ts" path="/Users/josephcooper/git/typescript-cdk-template/cdk/lib/infrastructure-stack.ts">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="11" count="19" type="stmt"/>
+      <line num="13" count="19" type="stmt"/>
+      <line num="24" count="19" type="stmt"/>
+      <line num="34" count="19" type="stmt"/>
+    </file>
+    <file name="item-processing-state-machine.ts" path="/Users/josephcooper/git/typescript-cdk-template/cdk/lib/item-processing-state-machine.ts">
+      <metrics statements="27" coveredstatements="27" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="19" count="5" type="stmt"/>
+      <line num="20" count="5" type="stmt"/>
+      <line num="22" count="5" type="stmt"/>
+      <line num="29" count="5" type="stmt"/>
+      <line num="36" count="5" type="stmt"/>
+      <line num="42" count="5" type="stmt"/>
+      <line num="44" count="5" type="stmt"/>
+      <line num="49" count="5" type="stmt"/>
+      <line num="54" count="5" type="stmt"/>
+      <line num="59" count="5" type="stmt"/>
+      <line num="63" count="5" type="stmt"/>
+      <line num="65" count="5" type="stmt"/>
+      <line num="69" count="5" type="stmt"/>
+      <line num="70" count="5" type="stmt"/>
+      <line num="72" count="5" type="stmt"/>
+      <line num="76" count="5" type="stmt"/>
+      <line num="77" count="5" type="stmt"/>
+      <line num="79" count="5" type="stmt"/>
+      <line num="84" count="5" type="stmt"/>
+    </file>
+    <file name="state-machine-stack.ts" path="/Users/josephcooper/git/typescript-cdk-template/cdk/lib/state-machine-stack.ts">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="15" count="5" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="21" count="5" type="stmt"/>
+      <line num="23" count="5" type="stmt"/>
+    </file>
+  </project>
+</coverage>
