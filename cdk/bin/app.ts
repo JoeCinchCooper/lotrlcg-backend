@@ -1,16 +1,17 @@
 import * as cdk from "aws-cdk-lib/core";
-import { InfrastructureStack } from "../lib/infrastructure-stack";
-import { ApiStack } from "../lib/api-stack";
-import { StateMachineStack } from "../lib/state-machine-stack";
+import { BlogInfraStack } from "../lib/blog-infra-stack";
+import { BlogApiStack } from "../lib/blog-api-stack";
+import { BlogStreamsStack } from "../lib/blog-streams-stack";
 
 const app = new cdk.App();
 
-const infraStack = new InfrastructureStack(app, "InfrastructureStack");
+const infra = new BlogInfraStack(app, "BlogInfraStack");
 
-new ApiStack(app, "ApiStack", {
-  table: infraStack.table,
+new BlogApiStack(app, "BlogApiStack", {
+  table: infra.table,
+  bucket: infra.bucket,
 });
 
-new StateMachineStack(app, "StateMachineStack", {
-  table: infraStack.table,
+new BlogStreamsStack(app, "BlogStreamsStack", {
+  table: infra.table,
 });

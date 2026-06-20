@@ -22,6 +22,7 @@
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
     "skipLibCheck": true,
+    "isolatedModules": true,
     "typeRoots": ["./node_modules/@types"],
         "types": ["jest", "node"]
   },

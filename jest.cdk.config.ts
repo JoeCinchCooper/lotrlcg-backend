@@ -9,6 +9,7 @@ const config: Config = {
   },
   moduleFileExtensions: ["ts", "js"],
   clearMocks: true,
+  passWithNoTests: true,
 };
 
 export default config;
